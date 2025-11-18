@@ -68,7 +68,7 @@ jobs:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
             # For main branch, use date + git short sha
-            type=raw,value={{date 'YYYYMMDD'}}-{{sha}},enable={{is_default_branch}}
+            type=raw,value={{date 'YYYY-MM-DD'}}-{{sha}},enable={{is_default_branch}}
             # For tags, use the tag name
             type=ref,event=tag
             # For PRs, use pr number

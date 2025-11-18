@@ -1,1 +1,4 @@
 flake8
+dask
+dask-kubernetes
+jupyter-server-proxy

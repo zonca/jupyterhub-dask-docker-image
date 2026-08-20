@@ -1,4 +1,4 @@
 flake8
-dask
-dask-kubernetes
-jupyter-server-proxy
+dask=2026.7.1
+dask-kubernetes=2026.3.0
+jupyter-server-proxy=4.5.0

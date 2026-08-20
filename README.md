@@ -144,7 +144,7 @@ docker build -t jupyterhub-dask:custom .
 
 ### Using a Different Base Image
 
-The Dockerfile uses `quay.io/jupyter/scipy-notebook:2025-11-10`. You can change this to:
+The Dockerfile uses `quay.io/jupyter/scipy-notebook:2026-08-17`. You can change this to:
 
 - `jupyter/minimal-notebook` - Minimal Jupyter installation
 - `jupyter/datascience-notebook` - Includes R and Julia
@@ -166,8 +166,8 @@ Images are published to the GitHub Container Registry at `ghcr.io/zonca/jupyterh
 To create a new release, push a date-based tag:
 
 ```bash
-git tag 2025-11-18
-git push origin 2025-11-18
+git tag 2026-08-19
+git push origin 2026-08-19
 ```
 
 This will trigger a build and publish the image with that tag.

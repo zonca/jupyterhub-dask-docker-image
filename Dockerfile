@@ -1,4 +1,4 @@
-FROM quay.io/jupyter/scipy-notebook:2025-11-10
+FROM quay.io/jupyter/scipy-notebook:2026-08-17
 
 LABEL org.opencontainers.image.title="JupyterHub Dask Docker Image"
 LABEL org.opencontainers.image.description="A Docker image that combines JupyterHub, Dask, and additional scientific computing tools for scalable data analysis and distributed computing workflows. Built on Jupyter scipy-notebook with Dask, Dask-Kubernetes, and Jupyter Server Proxy."
